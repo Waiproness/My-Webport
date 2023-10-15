@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@200;300;400;500;600&family=Noto+Sans+Thai:wght@300;400;500&display=swap");
+/* Custom CSS */
+
+body {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+.swiper-container {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+}
+.swiper-slide {
+  background-color: #6499e9;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  text-align: center; /* Center text */
+}
+.swiper-slide img {
+  padding: 30px;
+  border-radius: 50px;
+}
+
+.swiper-slide {
+  height: 100vh;
+  width: 100%;
+}
+
+.swiper-slide-content {
+  color: white;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  padding: 20px;
+  /* Change this to your desired color */
+  color: black; /* Change this to the text color you prefer */
+}
+
+/* Hover effect for buttons (optional) */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #0056b3;
+}
+
+.back-button i {
+  background-color: #333;
+  margin-top: 30px;
+  margin-left: 40px;
+  padding: 20px;
+  border-radius: 50px;
+  font-size: 2rem;
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.back-button i:hover {
+  background-color: #0056b3;
+}
+
+.img-border img{
+  height: 300px;
+  width: 500px;
+  object-fit: cover;
+}
